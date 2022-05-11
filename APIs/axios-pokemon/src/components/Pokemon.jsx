@@ -7,7 +7,7 @@ const Pokemon = (props) => {
 
     const getPokemon = (e) => {
         console.log("fetching")
-        axios.get('https://pokeapi.co/api/v2/pokemon')
+        axios.get('https://pokeapi.co/api/v2/pokemon?limit=1200')
             .then(response => { 
                 console.log(response)
                 setResponseData(response.data.results) 
