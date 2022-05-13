@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.results {
+  background-color: black;
+  text-align: center;
+  color: yellow;
+  padding: 3rem;
+}
